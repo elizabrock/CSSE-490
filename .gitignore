@@ -127,3 +127,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# .gitignore entries for the slidev slides:
+node_modules
+.DS_Store
+dist
+*.local
+index.html
+.remote-assets
+components.d.ts
