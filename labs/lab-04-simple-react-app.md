@@ -10,4 +10,6 @@
 
 ## Getting Started:
 
+Lab Starting Code: _link_
+
 In all likelihood we'll end up working through one of the tutorials provided on reactjs.org as they are well-regarded

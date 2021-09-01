@@ -22,6 +22,8 @@ Step-by-step instructions are included below to guide you through each step of t
 
 1. TODO: Instructions using GitHub Classroom
 
+Lab Starting Code: _link_
+
 ### Step 2: Clone the repository
 
 2. Clone the code //TODO

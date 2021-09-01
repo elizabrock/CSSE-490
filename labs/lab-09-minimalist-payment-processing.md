@@ -17,6 +17,8 @@ Note:  You will not be able to actually accept payments without signing up for a
 
 ## Getting Started:
 
+Lab Starting Code: _link_
+
 1. Clone the code //TODO
 2. Install dependencies //TODO
 3. Run the application in development mode //TODO
