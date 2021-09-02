@@ -104,7 +104,7 @@ What does it take to be a successful remote worker?
 * Managing your own time and tasks
   * You have to manage your own attention without the threat a manager wandering by to ask you why you're watching cartoons in the middle of the workday
 
-In short:  You have to ask like a senior engineer instead of junior engineer ;)
+In short:  You have to act like a senior engineer instead of junior engineer ;)
 
 ### Next up: Your remote work preferences
 
