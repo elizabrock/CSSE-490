@@ -124,10 +124,8 @@ Obv. a hard problem to solve.
 
 ### Options:
 
-1. Teams
-2. Piazza
-3. Moodle discussion forum
-4. ???
+1. Teams?
+5. Discord?
 
 ---
 
