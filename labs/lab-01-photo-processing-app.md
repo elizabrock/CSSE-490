@@ -3,6 +3,7 @@
 ## Learning Goals / Objectives:
 
 * Practice deploying an application
+* Practice applying the steps we used last time (clone, push, deploy, etc) without instructions that are quite as explicit
 * Practice using tests to guide your implementation
 * Practice reading library documentation and using that reading to implement new things
 * Practice a little creativity, too!
