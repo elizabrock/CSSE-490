@@ -240,7 +240,24 @@ We will develop this project in a series of milestones and sprints.  We will sta
 
 ## Project Brainstorming
 
-Let's come up with at least 10 good ideas before we move on.  In all likelihood, we'll end up working on project brainstorming on Friday, as well.
+### Let's come up with at least 10 good ideas before we move on.  In all likelihood, we'll end up working on project brainstorming on Friday, as well.
 
-An idea to start us off:
 1. An app that combines the APIs for Spotify, a song lyrics service, and a sentiment analysis service to provide sentiment analysis of Spotify playlists or Spotify playlist history
+2. A replacement for Teams
+3. A web service that connects to spending APIs (similar to Mint, maybe using OFX format
+4. An app that helps track game sales/promotions across different gaming platforms
+5. Interactive Novel/Game
+6. Build-a-bear online planner
+7. Web extension for renaming demo files from Steam
+8. goroawase generator (coolness confirmed; use case pending)
+9. Extend RoseNav to let people navigate inside of buildings
+10. Extend the Schedule planner application to use real registrar data
+11. Upgrade maker club sign in
+12. Cross-stitch supply app to calculate project costs
+
+---
+
+13. Random Recipe Speedrun Contest App
+14. Plan To Quilt online
+15. Managing the fishing supply business
+16. Waze for commuter parking
