@@ -47,7 +47,7 @@ It is also very short- there's no reason not to read it.
 * The simplest way to structure a Flask project
 * Starting a development (local) server
   * e.g. `FLASK_APP=hello.py flask run --reload`
-  * ![output of running flask routes on lab 0](/flask routes.png)
+  * ![output of running flask routes on lab 0](https://github.com/elizabrock/CSSE-490/raw/main/unit-1-getting-a-running-start/week-01-getting-a-running-start/flask%20routes.png)
 * Routes
   * This is how Flask translates paths (e.g. `/`) to which function to call (e.g. `index()`)
   * `flask routes` shows you the route table
@@ -59,25 +59,67 @@ It is also very short- there's no reason not to read it.
   * Implied but not discussed.  We're going to give it a real slide, too.
 
 ---
+layout: two-cols
+---
 
 ### Ch 2 Preview cont.
 ## Request-Response cycle
 
-You've seen some of this in 280 in the context of the
+
+| **Browser**                                           | **Flask Server**                                 |
+| ----------------------------------------------------- | ------------------------------------------------ |
+| Sends a request with request headers and request body |                                                  |
+|                                                       | Receives the request                             |
+|                                                       | Flask translates the request into Python objects |
+|                                   | Your application code creates a response object based on the request |
+|                                   | Flask translates your response object into a response to the browser |
+| The browser receives the response and processes it    |                                                  |
+
+
+::right::
+
+You've seen some of this in 280 in the context of the Chrome developer tools:
+
+![](https://github.com/elizabrock/CSSE-490/raw/main/unit-1-getting-a-running-start/week-01-getting-a-running-start/requests%20in%20chrome%20console.png)
 
 ---
 
 ### Ch 2 Preview cont.
 ## Environments
 
-## Preview of Ch 17. Deployment
+When writing back-end code, you are writing one codebase that will run in multiple environments with particular constraints and behaviors:
+
+| Name        | Description | Constraints |
+| ----------- | ----------- | ----------- |
+| Production  | The 'live' application that your users can access | |
+| Development | The local environment | Sometimes accesses live APIs for testing but typically has its own API kays and environments at the API providers  |
+| Test        | The environment in which the tests run | SHOULD NOT access any live production APIs and resources |
+| Staging     | An 'interim' environment that closely mimics production- Used to test functionality just before it goes into production | Accesses live APIs but needs to have its own API keys and environments at the API providers |
 
 ---
 
 ## Intro to Heroku
 
 * Heroku is a PaaS (Platform as a Service)
+  * PaaS == fancy cloud hosting provider
+* the cloud == someone else's computers
+
+## Preview of Ch 17. Deployment
+
+* This chapter covers deploying true production applications
+  * What we are deploying tomorrow is a toy, but it is being deployed into a production heroku environment, so we should skim this material now, and read it more deeply later
+* Relevant sections for you now:
+  * "Cloud Deployment"
+  * "The Heroku Platform" (just read through "Creating an application", because you won't be doing the later steps this week)
+  * "Testing with Heroku local"
+  * "Deploying with git push"
+
+---
+
+## More about the Heroku workflow
 
 [Put a visual of the git workflow for deployment here]
+
 [Perhaps also link to a resource for working with multiple remotes]
+
 [Also diagram/visualize for them how automated testing/CI/CD acts as a gatekeeper to keep bad code from production]
