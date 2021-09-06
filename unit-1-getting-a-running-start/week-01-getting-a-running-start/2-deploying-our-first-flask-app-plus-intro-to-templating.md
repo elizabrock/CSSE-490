@@ -115,11 +115,17 @@ When writing back-end code, you are writing one codebase that will run in multip
   * "Deploying with git push"
 
 ---
+layout: two-cols
+---
 
 ## More about the Heroku workflow
 
-[Put a visual of the git workflow for deployment here]
+### The workflow for Lab 0 (Deploying Our First Flask App)
 
-[Perhaps also link to a resource for working with multiple remotes]
+<div><a href='//sketchviz.com/@elizabrock/6c9fd114e88e4494828e9f266b2d04cd'><img src='https://sketchviz.com/@elizabrock/6c9fd114e88e4494828e9f266b2d04cd/27c4ea8a2a51b8891a75e0d6cb4d94555dacc58c.sketchy.png' style='max-width: 100%;'></a><br/><span style='font-size: 80%;color:#555;'>Hosted on <a href='//sketchviz.com/' style='color:#555;'>Sketchviz</a></span></div>
 
-[Also diagram/visualize for them how automated testing/CI/CD acts as a gatekeeper to keep bad code from production]
+::right::
+
+### The workflow for Lab 10 (CI and Automated Deployment with Heroku)
+
+<div><a href='//sketchviz.com/@elizabrock/6281f3bcf7be004cc04a2f413d2bb52e'><img src='https://sketchviz.com/@elizabrock/6281f3bcf7be004cc04a2f413d2bb52e/eeb73dfca6c1489ab6c49bcb9a94aaca947df83c.sketchy.png' style='max-width: 100%;'></a><br/><span style='font-size: 80%;color:#555;'>Hosted on <a href='//sketchviz.com/' style='color:#555;'>Sketchviz</a></span></div>
