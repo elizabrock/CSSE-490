@@ -47,10 +47,10 @@ It is also very short- there's no reason not to read it.
 * The simplest way to structure a Flask project
 * Starting a development (local) server
   * e.g. `FLASK_APP=hello.py flask run --reload`
-  * ![output of running flask routes on lab 0](https://github.com/elizabrock/CSSE-490/raw/main/unit-1-getting-a-running-start/week-01-getting-a-running-start/flask%20routes.png)
 * Routes
   * This is how Flask translates paths (e.g. `/`) to which function to call (e.g. `index()`)
   * `flask routes` shows you the route table
+  * ![output of running flask routes on lab 0](https://github.com/elizabrock/CSSE-490/raw/main/unit-1-getting-a-running-start/week-01-getting-a-running-start/flask%20routes.png)
 * Decorators
   * Python magic. In Flask decorators are used to 'tag' functions with their route information
 * Request-response cycle
@@ -129,3 +129,17 @@ layout: two-cols
 ### The workflow for Lab 10 (CI and Automated Deployment with Heroku)
 
 <div><a href='//sketchviz.com/@elizabrock/6281f3bcf7be004cc04a2f413d2bb52e'><img src='https://sketchviz.com/@elizabrock/6281f3bcf7be004cc04a2f413d2bb52e/eeb73dfca6c1489ab6c49bcb9a94aaca947df83c.sketchy.png' style='max-width: 100%;'></a><br/><span style='font-size: 80%;color:#555;'>Hosted on <a href='//sketchviz.com/' style='color:#555;'>Sketchviz</a></span></div>
+
+
+---
+
+## 490 Hopes and Dreams
+
+* Webpack
+* Typescript
+* Svelte
+* CI/CD
+* Docker (maybe add into Week 10?)
+* Webscale
+* James White guest lecture?
+* WebGL
