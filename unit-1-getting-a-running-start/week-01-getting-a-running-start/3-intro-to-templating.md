@@ -3,7 +3,7 @@
 
 ## Intro to Templates and Forms
 ## +
-## Intro to Testing
+## Project Team Formation
 
 
 ---
@@ -142,33 +142,3 @@ The most notable thing about flask-wtf (other than the delightful name and its u
 
 
 [Project signup sheet](https://docs.google.com/spreadsheets/d/17FoOmJk-xgyoKU9j8y0d_1qRmBEun5ZohD0vRO0hmB8/edit?usp=sharing)
----
-## Intro to Testing
-
-
-
----
-
-## Expanding our application structure
-
-<pre style="margin-left: 1em;">
-brocker-lab-1/
-├─ app/
-│  ├─ simple_photo_processor.py
-│  ├─ static/
-│  │  ├─ css/
-│  │     ├─ main.css
-│  │  ├─ images/
-│  │     ├─ favicon.png
-│  │  ├─ js/
-│  │     ├─ main.js
-│  ├─ templates/
-│  │  ├─ index.html
-│  │  ├─ layout.html
-│  │  ├─ upload.html
-├─ app/
-│  ├─ simple_photo_processor.py
-</pre>
-
-
-

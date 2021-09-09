@@ -21,17 +21,22 @@ Lab Starting Code (through GitHub Classroom): _link_
 
 ### 1. Clone the code
 ### 2. Install dependencies
+
+Follow the instructions in the README for this :)
+
+(Note that they have slight differences from last time)
+
 ### 3. Run the application in development mode
 ### 4. Run the tests
- // TODO
 
-### 5. Follow the instructions in the test to implement the photo transformation(s) of your choice
- // TODO
+`pytest`
 
-### Step 5: Commit your local changes
-### Step 6: Push your code to *your* GitHub repository
-### Step 7: Deploy your code to Heroku
-### Step 8: Make sure that your changes are live in production
-### Step 9: Turn in the lab
+### 5. Follow the instructions in the test output to implement the photo transformation(s) of your choice
 
-Go to [Gradescope](https://www.gradescope.com/) and turn in the lab!
+### Step 5: Wrap up your work:
+
+1. Commit your local changes
+2. Push your code to *your* GitHub repository
+3. Deploy your code to Heroku
+4. Make sure that your changes are live in production
+5. Turn in the lab to [Gradescope](https://www.gradescope.com/)!
