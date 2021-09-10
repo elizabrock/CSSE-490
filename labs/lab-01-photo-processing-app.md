@@ -16,7 +16,7 @@
 
 ## Getting Started:
 
-Lab Starting Code (through GitHub Classroom): _link_
+Lab Starting Code (through GitHub Classroom): https://classroom.github.com/a/7vy-b1El
 
 
 ### 1. Clone the code
