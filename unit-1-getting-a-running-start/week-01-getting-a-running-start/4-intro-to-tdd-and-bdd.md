@@ -48,7 +48,7 @@ layout: two-cols
 * Top down testing
 * Each layer should be a little more thorough than the last
 
-## As applied to Lab 1:
+## As applied to [Lab 1](https://github.com/elizabrock/CSSE-490/blob/main/labs/lab-01-photo-processing-app.md):
 
 * Your mission is to set up the Lab
 * Run the tests
@@ -56,7 +56,6 @@ layout: two-cols
 
 (If you want to add more functionality, by all means do so, but you must also add tests to go with it!)
 
-
-
 ::right::
-<a href='//sketchviz.com/@elizabrock/91fc6bc5e473e4067fd94261683bfe0b'><img src='https://sketchviz.com/@elizabrock/91fc6bc5e473e4067fd94261683bfe0b/81d7753f0e5a29d7d51bb0546e395addc15cdb3e.sketchy.png' style='max-width: 100%; max-height: 28em;'></a>
+
+<a href='//sketchviz.com/@elizabrock/91fc6bc5e473e4067fd94261683bfe0b'><img src='https://sketchviz.com/@elizabrock/91fc6bc5e473e4067fd94261683bfe0b/d543ef6880bc12b36a83afe6b85a42301c2fccae.sketchy.png' style='max-width: 100%; max-height: 28em;'></a>
