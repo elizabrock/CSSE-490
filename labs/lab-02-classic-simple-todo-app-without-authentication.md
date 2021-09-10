@@ -16,7 +16,7 @@
 Lab Starting Code: _link_
 
 1. Clone the code //TODO
-2. Install dependencies //TODO
-3. Run the application in development mode //TODO
-4. Run the tests //TODO
-5. Follow the instructions in the test to implement the lab // TODO
+2. Install dependencies
+3. Run the application in development mode
+4. Run the test
+5. Follow the instructions in the test to implement the lab
