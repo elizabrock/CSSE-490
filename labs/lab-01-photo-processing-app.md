@@ -11,7 +11,7 @@
 ## Requirements:
 
 * Your application must be deployed to Heroku
-* Your application must accept an uploaded image and return a version of that image that has one or more effects applied to it via. [ImageMagick](https://imagemagick.org/index.php)
+* Your application must accept an uploaded image and return a version of that image that has one or more effects applied to it via. Pillow
 * Your work must be developed using the provided unit tests
 
 ## Getting Started:
