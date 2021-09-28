@@ -21,12 +21,14 @@ The #1 project requirement:  Make something damn cool!
 
 We will develop this project in a series of milestones and sprints.  We will start project ideation in Week 0, but we won't start actual coding until midway through the term.  Weeks 8-10 will be lighter on class materials, with labs that are either smaller or entirely optional, so you will have time to focus on developing your project.
 
-* M1: Ideation
-* M2: Settling on an idea and a team (optional, up to 2 students)
-* M3 (likely splitting this into multiple milestones): Plan your application
-    * How will users interact with your application?  (Basic wireframes are required, high fidelity mocks are NOT required)
-    * What APIs will you need?
-    * How will you structure your application?
-    * How will you store and structure your data?
-* M4 - MN-1: Weekly sprints with progress reports
-* MN: Live presentations during our finals timeslot
+* M1: Ideation (week 1)
+* M2: Picking Teams (week 2)
+* M3: Settling on an idea (week 3)
+* M4: Project Plan Pt 1: (week 4)
+  * How will users interact with your application?  (Basic wireframes are required, high fidelity mocks are NOT required)
+* M5: Project Plan Pt 2:
+  * What APIs will you need?
+  * How will you structure your application?
+  * How will you store and structure your data?
+* M6 - M10: Weekly sprints with progress reports
+* M11: Live presentations during our finals timeslot<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ^--- I plan to be there live, too
