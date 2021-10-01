@@ -84,11 +84,21 @@ This outlines how to break down a mock into components, which is a skill we will
 
 ---
 
+# Friyay?
 
-<!-- Friday:
+### Announcements
+* Updated schedule now in AirTable
+  * I'll be updating Moodle during class today
 
-* Start lab 4
+### ToDo
 * Review milestone 4
-  * https://rosehulmanprojectvault.org/course-edit/-MkHZP90_iA6H8kAmt35
+  * Have you submitted it?
+  * Have you made the document link publicly viewable?
+* Start lab 4
+  * If you have React experience you will probably be done today
+  * If you don't have React experience you will need extra time
+    * Aim to complete it (or at least get utterly stuck) before class Monday
+    * We will review questions on this lab Monday
+    * Due date is Tuesday AM
 
--->
+<!-- Vault link: https://rosehulmanprojectvault.org/course-edit/-MkHZP90_iA6H8kAmt35 -->
