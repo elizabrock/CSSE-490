@@ -134,28 +134,102 @@ $ heroku open
 <br>
 <br>
 
-### 5. Cherry-pick commit [SHA] from my repository
+### 5. Read this description of Part 2
 
-`git cherry-pick SHA`
+In Lab 2, you created a basic todo application that followed REST principals.
+
+Your routes table (from `flask routes`) looked something like this:
+
+```
+Endpoint          Methods    Rule
+----------------  ---------  -----------------------
+static            GET        /static/<path:filename>
+todo.create_task  POST       /tasks
+todo.delete_task  DELETE     /tasks/<id>
+todo.edit_task    GET        /tasks/<id>
+todo.index        GET        /
+todo.new_task     GET        /tasks/new
+todo.update_task  POST       /tasks/<id>
+```
+
+
+In Lab 3, Part 1, you added the routes necessary for authentication:
+
+```
+Endpoint          Methods    Rule
+----------------  ---------  -----------------------
+auth.login        GET, POST  /login
+auth.logout       GET        /logout
+auth.register     GET, POST  /register
+```
+
+We are now going to add the concept of *authorization* to our application.
+
+Authentication == who is this?
+Authorization == are they allowed to perform this action?
+
+A summary of the changes that you/we are going to have to make:
+
+1. You will have to set up database relationships between the User model that you created in Part 1, and the Task model that you created in the prior lab.
+2. You will have to limit access to the various todo actions, either to require users to be logged in or to require users to be logged in as the specific user that created the task
+3. I created a homepage just for logged out users to see, and updated the path of `todo.index` to be `/tasks` instead of `/`
+
+|Endpoint          | Rule          | Now requires login? | Additional Modifications
+|----------------  | ------------- | ------------------- | -------------
+|auth.index        | **/**         | no                  | create a new homepage view just for logged out users to see
+|todo.create_task  | /tasks        | yes                 |
+|todo.delete_task  | /tasks/<id>   | yes                 | limit access to only to the person that created the task
+|todo.edit_task    | /tasks/<id>   | yes                 | limit access to only to the person that created the task
+|todo.index        | **/tasks/**   | yes                 | Update the route; only show the current user's tasks
+|todo.new_task     | /tasks/new    | yes                 |
+|todo.update_task  | /tasks/<id>   | yes                 | limit access to only to the person that created the task
+
+### 5. Cherry-pick two commits from my repository
+
+#### First: `git fetch upstream`
+
+#### Second: `git cherry-pick a2dd1c71eb47113528ab236764262c292a1d0267`
+
+See diff: https://github.com/csse-490-advanced-web-development/lab-2/commit/a2dd1c71eb47113528ab236764262c292a1d0267
+
+In that commit, I installed `flask-migrate` per the instructions on pg 73 of the book
+  1. `pip install flask-migrate`
+  2. `pip list --format=freeze > requirements.txt` (remember not to commit the line that references the current project!)
+  3. Add the Migrate line from the book to todo.py
+  3. `FLASK_APP=todo.py flask db init` to initialize all the files that flask-migrate uses
+  4. A whole bunch of steps that you won't have to do in your own projects if you use flask-migrate from the start
+  4. `flask db migrate -m "initial migration"
+  4. More steps that you won't have to do in your own projects if you use flask-migrate from the start
+  5. `flask db upgrade`
+
+#### Third: `git cherry-pick a4619201befe4fbc71fdabdf0a389c1787e329f9`
+
+See diff: https://github.com/csse-490-advanced-web-development/lab-2/commit/a4619201befe4fbc71fdabdf0a389c1787e329f9
+
+In that commit I provided tests for you to implement authorization/database relationships yourself
 
 ### 6. Let the tests guide you in implementing authorization / database relationships
 
 * Run the test `test_todo_app.py`
-* Let the error messages motivate you to modify the Task model to include a User relationship (This is similar in pattern to Ch. 9 User Roles)
-* Install `flask-migrate` (both with pip install and pip freeze)
-* Update the model
-* Create a flask migration script with `flask db migrate`
-* Review the migration
-* Run the migration with `flask db upgrade`
-* Optionally, backfill user ids for existing tasks (e.g. as in page 135 of the book)
+  * I highly recommend using `pytest --maxfail=1 tests/test_todo_app.py` to run the file, as the `-maxfail` flag will cause the test run to end after the first test failure.  Then run just the specific failing test (e.g. `pytest tests/test_todo_app.py::test_that_failed`) until that test case passes.  Then return to running the full test file again.
+* Let the error messages motivate you to modify the Task model to include a User relationship (This is extremely similar to the relationship between Users and Comments in the flasky app)  You would benefit from perusing the documentation here: https://flask-sqlalchemy.palletsprojects.com/en/2.x/models/
+  1. Add the relationships on to the Task and User models (this is the same as what you see for Role and User in the book, except that in this case it is User and Task)
+    * TODO: Just put the durn code here
+  2. Create a migration to reflect the new state of the code:
+    * `flask db migrate -m "adding relationship between tasks and users"`
+  3. "Upgrade" your local database with the migration
+    * `flask db upgrade`
 * Implement changes necessary to make the rest of the tests pass
+  * Hint: the currently logged in user is `current_user`
+
+* Optionally, backfill user ids for existing tasks (e.g. as in page 135 of the book)
 * Note to Eliza:  Be sure to add unit tests for not being able to post updates to or delete someone else's tasks
 
-### 9. Test locally and then deploy your code
+### 7. Test locally and then deploy your code
 
 * Note to Eliza: Be sure to update the heroku deploy steps correct so that running the migration is automatic
 
-### 10: Wrap up your work
+### 8: Wrap up your work
 
 1. Commit your local changes
 2. Push your code to *your* GitHub repository
@@ -163,3 +237,7 @@ $ heroku open
 5. Make sure that your changes are live in production
 6. Open a pull request to the primary lab repo
 7. Turn in the lab to [Gradescope](https://www.gradescope.com/)!
+
+### 9. Breath a sigh of relief
+
+### 10. Have a good break!
