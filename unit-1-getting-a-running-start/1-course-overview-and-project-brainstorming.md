@@ -82,9 +82,9 @@ My vision is that this course will eventually earn a permanent billet as CSSE-38
 ## About Me
 ### Remote Work
 
-I've been a remote worker for 5+ years.  Being remote has brought a lot of flexibility and opportunity to my life.
+I've been a remote worker for 7+ years.  Being remote has brought a lot of flexibility and opportunity to my life.
 
-What you've experienced with being forced into online learning hasn't been the greatest experience for most of you.
+What you've experienced with being forced into online learning during the pandemic wasn't been the greatest experience for most of you.
 
 I hope that this class will change how you feel about collaborating and working remotely.
 
@@ -125,7 +125,15 @@ Obv. a hard problem to solve.
 ### Options:
 
 1. Teams?
-5. Discord?
+7. Carrier Pigeon?
+
+---
+
+## Introductions
+
+1. Name
+2. Moving Hobby
+3. Making Hobby
 
 ---
 
@@ -165,11 +173,11 @@ Full participation means showing up to class on time, with cameras on*, and bein
 ## Course Overview
 ### Course Outline / Schedule
 
-<iframe class="airtable-embed" src="https://airtable.com/embed/shrnT052IrxJPml43?backgroundColor=yellow&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="450" style="background: transparent; border: 1px solid #ccc;"></iframe>
+<iframe class="airtable-embed" src="https://airtable.com/embed/appxjtCsxHvVwjugD/shrCcyjo8aTurwSZf?backgroundColor=yellow&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="450" style="background: transparent; border: 1px solid #ccc;"></iframe>
 
 ## Course Details
 
-Flask
+Sinatra
 React
 Automated Testing
 Big Project
@@ -178,9 +186,9 @@ Big Project
 
 ## Course Details
 
-### Why Flask?
+### Why Sinatra?
 
-Simple, many of you know it already, prepares you for __understanding__ bigger frameworks
+Simple, prepares you for __understanding__ bigger frameworks
 
 ### Why React?
 
@@ -242,7 +250,9 @@ We will develop this project in a series of milestones and sprints.  We will sta
 
 ### Let's come up with at least 10 good ideas before we move on.  In all likelihood, we'll end up working on project brainstorming on Friday, as well.
 
-1. An app that combines the APIs for Spotify, a song lyrics service, and a sentiment analysis service to provide sentiment analysis of Spotify playlists or Spotify playlist history
+1. An App For Tracking Presser Feet for Sewing
+
+<!-- 1. An app that combines the APIs for Spotify, a song lyrics service, and a sentiment analysis service to provide sentiment analysis of Spotify playlists or Spotify playlist history
 2. A replacement for Teams
 3. A web service that connects to spending APIs (similar to Mint, maybe using OFX format
 4. An app that helps track game sales/promotions across different gaming platforms
@@ -254,10 +264,13 @@ We will develop this project in a series of milestones and sprints.  We will sta
 10. Extend the Schedule planner application to use real registrar data
 11. Upgrade maker club sign in
 12. Cross-stitch supply app to calculate project costs
-
----
-
 13. Random Recipe Speedrun Contest App
 14. Plan To Quilt online
 15. Managing the fishing supply business
-16. Waze for commuter parking
+16. Waze for commuter parking -->
+
+---
+
+## For Tomorrow:
+
+Let's see what Moodle tells us to do!
