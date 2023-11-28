@@ -250,9 +250,28 @@ We will develop this project in a series of milestones and sprints.  We will sta
 
 ### Let's come up with at least 10 good ideas before we move on.  In all likelihood, we'll end up working on project brainstorming on Friday, as well.
 
-1. An App For Tracking Presser Feet for Sewing
+1. Improving on something that already exists
+    1. Sharing data between devices (portal)
+    1. Scheduling application (hybrid kanban/todo, with ics sync(?))
+2. Cloning something you like
+    1. Internet enabled coffee maker
+3. Filling in a gap that is missing for a hobby/passion
+    1. An App For Tracking Presser Feet for Sewing / Presser Foot Encyclopedia
+    2. Interactive map of campus, with your schedule highlighted
+    3. Custom RPG character sheet application
 
-<!-- 1. An app that combines the APIs for Spotify, a song lyrics service, and a sentiment analysis service to provide sentiment analysis of Spotify playlists or Spotify playlist history
+
+
+Food for thought:
+* https://solvingproduct.com/sales-safari/
+* https://superfounder.io/guide/jobs-to-be-done
+
+
+---
+
+
+Last term:
+1. An app that combines the APIs for Spotify, a song lyrics service, and a sentiment analysis service to provide sentiment analysis of Spotify playlists or Spotify playlist history
 2. A replacement for Teams
 3. A web service that connects to spending APIs (similar to Mint, maybe using OFX format
 4. An app that helps track game sales/promotions across different gaming platforms
@@ -267,7 +286,7 @@ We will develop this project in a series of milestones and sprints.  We will sta
 13. Random Recipe Speedrun Contest App
 14. Plan To Quilt online
 15. Managing the fishing supply business
-16. Waze for commuter parking -->
+16. Waze for commuter parking
 
 ---
 
