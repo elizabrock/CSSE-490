@@ -1,4 +1,4 @@
-# Lab 0: Our First Flask App
+# Lab 0: Ruby Koans
 
 This lab serves to get you familiar with the basics of both Ruby and Test-Driven-Development.
 
