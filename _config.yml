@@ -35,8 +35,8 @@ plugins:
 
 header_pages:
   - labs/index.md
-  - slides/index.md
   - project/overview.md
+  - slides/index.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -48,7 +48,7 @@ header_pages:
 #
 
 exclude:
-  - slides/*/*
+  - slides/**/*.md
   - .sass-cache/
   - .jekyll-cache/
   - gemfiles/
@@ -59,6 +59,5 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-
-include:
-  - _slides
+  - /*.rb
+  - slides/*/dist/*/*.html

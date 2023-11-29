@@ -4,10 +4,20 @@ title: Slides
 permalink: /slides/
 ---
 
-<ul>
-    {% for item in site.pages %}
-      {% if item.url contains 'slides' and item.url != '/slides/' %}
-        <li><a href="{{ item.url }}">{{ item.title }}</a></li>
-      {% endif %}
-    {% endfor %}
-</ul>
+{% assign slides_by_unit = site.pages | sort: "unit" | group_by: "unit" %}
+
+{% for unit in slides_by_unit %}
+  {% if unit.name != '' %}
+  <h2>{{ unit.name }}</h2>
+  <ul>
+  {% assign sorted_slides = unit.items | sort: "title" %}
+  {% for slides in sorted_slides %}
+    <li>
+        <a href="{{ slides.url }}">
+          {{ slides.title }}
+        </a>
+    </li>
+  {% endfor %}
+  </ul>
+  {% endif %}
+{% endfor %}

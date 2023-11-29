@@ -26,11 +26,16 @@ jobs:
         with:
           node-version: 'lts/*'
 
+      - name: Install Ruby 3.2.2
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.2.2"
+
       - name: Install dependencies
         run: npm install
 
       - name: Build Slides
-        run: npm run build slides/**/*.md --out _slides
+        run: ruby build_slides_for_jekyll.rb
 
       - name: Build Site
         run: jekyll build
