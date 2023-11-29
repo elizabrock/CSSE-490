@@ -54,7 +54,7 @@ It is perfectly fine to keep deploying to the same Heroku project that you used 
 
   * Run the test: `pytest tests/test_authentication.py::test_signing_up_successfully_and_then_logging_in`
   * Let the error messages drive you to implement a new user registration form.
-    * Hint: `<a href="{{url_for('auth.register')}}:">Sign Up</a>`
+    * Hint: `<a href="\{\{url_for('auth.register')}}:">Sign Up</a>`
     * I highly recommend adapting the form on page 115 of the book.
   * Let the error messages then drive you to _create_ (DO NOT do more than create it) a User model (inside of `app/models.py`)
 2.  Now that you have been motivated to create the User model, run the test: `pytest tests/test_user_model.py`

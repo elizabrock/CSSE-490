@@ -1,3 +1,9 @@
+---
+layout: page
+title: Project
+permalink: /project/
+---
+
 # Project Overview
 
 The sky is the limit for project ideas. However, I will be helping you limit the initial scope of your projects to ensure that you are able to create something cool in the time allotted.
@@ -32,3 +38,13 @@ We will develop this project in a series of milestones and sprints.  We will sta
   * How will you store and structure your data?
 * M6 - M10: Weekly sprints with progress reports
 * M11: Live presentations during our finals timeslot<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ^--- I plan to be there live, too
+
+
+<ul>
+    {% for item in site.pages %}
+      {% if item.url contains '/project/' and item.url != '/project/' %}
+        <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+</ul>
+

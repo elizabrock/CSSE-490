@@ -5,3 +5,9 @@ dist
 index.html
 .remote-assets
 components.d.ts
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+_slides
