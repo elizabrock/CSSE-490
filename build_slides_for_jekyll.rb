@@ -1,7 +1,7 @@
 unless ENV["SKIP_BUILD"]
   Dir.glob('slides/*/*.md').each do |filename|
     puts "About to convert #{filename}"
-    out_dir = "dist/" + filename.scan(/slides\/[^\/]*\/(.*).md/).first[0] + "/"
+    out_dir = filename.scan(/slides\/[^\/]*\/(.*).md/).first[0] + "/"
     # `mkdir -p #{out_dir}`
     command = "npm run build #{filename} -- --out #{out_dir} --base /#{File.dirname(filename)}/#{out_dir}"
     puts "About to run: #{command}"
@@ -21,14 +21,16 @@ def transform(filename, jekyll_path, jekyll_title, jekyll_unit)
     file.puts '---'
     file.puts "layout: slides"
     file.puts "permalink: #{jekyll_path}"
-    file.puts "title: #{jekyll_title}"
+    file.puts "title: \"#{jekyll_title}\""
     file.puts "unit: \"#{jekyll_unit}\""
     file.puts '---'
     file.puts '{% raw %}'
-    File.foreach(original_file) do |li, index|
-      unless index == 0
+    past_first_line = false
+    File.foreach(original_file) do |li|
+      if past_first_line
         file.puts li
       end
+      past_first_line = true
     end
     file.puts '{% endraw %}'
   end
@@ -38,10 +40,10 @@ def make_that_name_pretty(name)
   name.gsub("-", " ").gsub(/\w+/){ |word| word.capitalize }.gsub("Tdd", "TDD").gsub("Bdd", "BDD").gsub("Rest", "REST")
 end
 
-Dir.glob('slides/**/dist/**/index.html').each do |filename|
+Dir.glob('slides/**/**/index.html').each do |filename|
   puts "About to prepare #{filename} for Jekyll"
-  unit, deck = filename.match(/slides\/(.*)\/dist\/(.*)\/index.html/).captures
-  jekyll_path = "/slides/#{unit}/#{deck}"
+  unit, deck = filename.match(/slides\/(.*)\/(.*)\/index.html/).captures
+  jekyll_path = "/slides/#{unit}/#{deck}/"
   puts "  Jekyll path: #{jekyll_path}"
   jekyll_title = make_that_name_pretty(deck)
   puts "  Jekyll title: #{jekyll_title}"

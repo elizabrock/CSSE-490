@@ -49,6 +49,7 @@ header_pages:
 
 exclude:
   - slides/**/*.md
+  - slides/**/*.html
   - .sass-cache/
   - .jekyll-cache/
   - gemfiles/
@@ -60,4 +61,3 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - /*.rb
-  - slides/*/dist/*/*.html
