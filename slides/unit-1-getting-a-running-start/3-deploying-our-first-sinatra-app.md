@@ -92,8 +92,8 @@ When writing back-end code, you are writing one codebase that will run in multip
 
 | Name        | Description | Constraints |
 | ----------- | ----------- | ----------- |
-| Production  | The 'live' application that your users can access | |
-| Development | The local environment | Sometimes accesses live APIs for testing but typically has its own API kays and environments at the API providers  |
+| Production  | The 'live' application that your users can access | Production APIs/Resources|
+| Development | The local environment | Sometimes accesses live APIs for testing but typically has its own API keys and environments at the API providers  |
 | Test        | The environment in which the tests run | SHOULD NOT access any live production APIs and resources |
 | Staging     | An 'interim' environment that closely mimics production- Used to test functionality just before it goes into production | Accesses live APIs but needs to have its own API keys and environments at the API providers |
 
@@ -126,7 +126,7 @@ layout: two-cols
 
 ## More about the Heroku workflow
 
-### The workflow for Lab 0 (Deploying Our First Sinatra App)
+### The workflow for Lab 1 (Deploying Our First Sinatra App)
 
 <div><a href='//sketchviz.com/@elizabrock/6c9fd114e88e4494828e9f266b2d04cd'><img src='lab-1-workflow.png' style='max-width: 100%;'></a><br/><span style='font-size: 80%;color:#555;'>Hosted on <a href='//sketchviz.com/' style='color:#555;'>Sketchviz</a></span></div>
 
