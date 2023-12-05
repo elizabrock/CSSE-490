@@ -1,4 +1,4 @@
-# Lab 0: Our First Sinatra App
+# Lab 1: Our First Sinatra App
 
 This lab serves to get you familiar with the very basics of running a Sinatra app and deploying to Heroku.
 
