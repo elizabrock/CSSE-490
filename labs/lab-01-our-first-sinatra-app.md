@@ -1,14 +1,14 @@
-# Lab 0: Our First Flask App
+# Lab 0: Our First Sinatra App
 
-This lab serves to get you familiar with the very basics of running a Flask app and deploying to Heroku.
+This lab serves to get you familiar with the very basics of running a Sinatra app and deploying to Heroku.
 
-Step-by-step instructions are included below to guide you through each step of the process.  
+Step-by-step instructions are included below to guide you through each step of the process.
 
 ## Learning Goals / Objectives:
 
 * Refresh your memory of using GitHub
-* Create your first Flask application
-* Practice deploying a Flask application to Heroku
+* Create your first Sinatra application
+* Practice deploying a Sinatra application to Heroku
 
 ## Requirements:
 
@@ -20,7 +20,7 @@ Step-by-step instructions are included below to guide you through each step of t
 
 ### Step 1: Create a GitHub repository for this lab
 
-1. Lab Starting Code (through GitHub Classroom): https://classroom.github.com/a/YoxOMU8c
+1. Lab Starting Code (through GitHub Classroom): https://classroom.github.com/a/HqzUBss5
 
 ### Step 2: Follow the instructions in the repository to clone the repository on your local machine
 
@@ -32,7 +32,7 @@ See the "Cloning and Installing Dependencies" and the "Running Locally" sections
 
 ### Step 4: Make your changes locally
 
-1. Open the application in your local browser at [localhost:5000](http://localhost:5000/).
+1. Open the application in your local browser at [localhost:9292](http://localhost:9292/).
 2. Update the application code so that the application prints out your name instead of "[Your Name Goes Here]"
 3. Verify that the changes you made look correct in your local browser
 
@@ -57,4 +57,5 @@ See the "Deploying to Heroku" section of the README
 
 ### Step 9: Turn in the lab
 
-Go to [Gradescope](https://www.gradescope.com/) and turn in the lab!
+1. Update README.md with the deployed URL of your application
+2. Push all your changes up to GitHub
