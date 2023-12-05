@@ -1,0 +1,44 @@
+# http://www.graphviz.org/content/cluster
+
+digraph G {
+  graph [fontname = "Handlee"];
+  node [fontname = "Handlee"];
+  edge [fontname = "Handlee", style=dashed];
+
+  bgcolor=transparent;
+
+  subgraph cluster_0 {
+    color=dimgray;
+    node [style=filled];
+    local_main[shape=square, label="main"]
+    label = "*local*";
+    fontsize = 20;
+  }
+
+  subgraph cluster_remotes {
+    label="Remotes";
+      
+  subgraph cluster_1 {
+    node [style=filled];
+    github_main[shape=square, label="main"]
+    label = "*GitHub*";
+    fontsize = 20;
+    color=dodgerblue3
+  }
+  
+
+  subgraph cluster_2 {
+    node [style=filled];
+    heroku_main[shape=square, label="main"]
+    label = "*Heroku*";
+    fontsize = 20;
+    color=darkslateblue
+  }
+  }
+  
+  ci_process[label="CI/CD service",shape=diamond]
+  
+    local_main -> github_main [label = "git push origin main"]
+    github_main -> ci_process
+    ci_process -> heroku_main
+}

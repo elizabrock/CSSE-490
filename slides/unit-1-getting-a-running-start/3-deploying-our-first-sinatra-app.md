@@ -45,20 +45,23 @@ layout: two-cols
 * Starting a development (local) server
   * e.g. `ruby sinatra_app.rb`
 * Routes
-  * Defined by HTTP method (e.g. `GET`) and path (e.g. `/`) along with a block that will be executed when that URL is hit:
+  * Defined by HTTP method (e.g. `GET`) and path (e.g. `/`) along with a block that will be executed when that URL is hit
 * Request-response cycle
   * This is a big one.  Let's discuss on the next slide!
+
 ::right::
+
+### Sinatra Route:
+```
+get '/' do
+  "<h1>Hello World!</h1>"
+end
+```
 
 ---
 layout: two-cols
 ---
 
-```
-get '/' do
-  "<h1>Hello World! I'm [Your Name Goes Here]!</h1>"
-end
-```
 
 ## Request-Response cycle
 
@@ -79,11 +82,10 @@ end
 
 You've seen some of this in 280 in the context of the Chrome developer tools:
 
-![](https://github.com/elizabrock/CSSE-490/raw/main/unit-1-getting-a-running-start/week-01-getting-a-running-start/requests%20in%20chrome%20console.png)
+![](requests%20in%20chrome%20console.png)
 
 ---
 
-### Ch 2 Preview cont.
 ## Environments
 
 When writing back-end code, you are writing one codebase that will run in multiple environments with particular constraints and behaviors:
@@ -96,8 +98,6 @@ When writing back-end code, you are writing one codebase that will run in multip
 | Staging     | An 'interim' environment that closely mimics production- Used to test functionality just before it goes into production | Accesses live APIs but needs to have its own API keys and environments at the API providers |
 
 
-* What we are deploying today is a toy that doesn't have explicit environments, but it is being deployed into a production heroku environment, so we should skim this material now, and read it more deeply later
-
 ---
 
 ## Intro to Heroku
@@ -105,6 +105,9 @@ When writing back-end code, you are writing one codebase that will run in multip
 * Heroku is a PaaS (Platform as a Service)
   * PaaS == fancy cloud hosting provider
 * the cloud == someone else's computers
+
+**Note:**
+* What we are deploying today is a toy that doesn't have explicit environments, but it is being deployed into a production heroku environment, so we should skim this material now, and read it more deeply later
 
 <!--
 ## Preview of Ch 17. Deployment
@@ -125,13 +128,13 @@ layout: two-cols
 
 ### The workflow for Lab 0 (Deploying Our First Sinatra App)
 
-<div><a href='//sketchviz.com/@elizabrock/6c9fd114e88e4494828e9f266b2d04cd'><img src='https://sketchviz.com/@elizabrock/6c9fd114e88e4494828e9f266b2d04cd/27c4ea8a2a51b8891a75e0d6cb4d94555dacc58c.sketchy.png' style='max-width: 100%;'></a><br/><span style='font-size: 80%;color:#555;'>Hosted on <a href='//sketchviz.com/' style='color:#555;'>Sketchviz</a></span></div>
+<div><a href='//sketchviz.com/@elizabrock/6c9fd114e88e4494828e9f266b2d04cd'><img src='lab-1-workflow.png' style='max-width: 100%;'></a><br/><span style='font-size: 80%;color:#555;'>Hosted on <a href='//sketchviz.com/' style='color:#555;'>Sketchviz</a></span></div>
 
 ::right::
 
 ### The workflow for Lab 10 (CI and Automated Deployment with Heroku)
 
-<div><a href='//sketchviz.com/@elizabrock/6281f3bcf7be004cc04a2f413d2bb52e'><img src='https://sketchviz.com/@elizabrock/6281f3bcf7be004cc04a2f413d2bb52e/eeb73dfca6c1489ab6c49bcb9a94aaca947df83c.sketchy.png' style='max-width: 100%;'></a><br/><span style='font-size: 80%;color:#555;'>Hosted on <a href='//sketchviz.com/' style='color:#555;'>Sketchviz</a></span></div>
+<div><a href='//sketchviz.com/@elizabrock/6281f3bcf7be004cc04a2f413d2bb52e'><img src='lab-10-workflow.png' style='max-width: 100%;'></a><br/><span style='font-size: 80%;color:#555;'>Hosted on <a href='//sketchviz.com/' style='color:#555;'>Sketchviz</a></span></div>
 
 
 ---
