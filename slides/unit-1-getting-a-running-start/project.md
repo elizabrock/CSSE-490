@@ -80,3 +80,10 @@ Last term:
 14. Plan To Quilt online
 15. Managing the fishing supply business
 16. Waze for commuter parking
+
+
+---
+
+This term:
+
+https://docs.google.com/document/d/17kbqNt-TtjboFjjqmrjbXauhlqQWTRf6hnHYeFOUsas/edit?usp=sharing
