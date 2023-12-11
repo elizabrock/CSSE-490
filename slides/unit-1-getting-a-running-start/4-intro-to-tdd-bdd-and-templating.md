@@ -1,11 +1,67 @@
 # CSSE-490: Advanced Web Development
-### Week 1: Getting a Running Start
+### Week 3: Getting a Running Start
 
-## Intro to Templates and Forms
+## Intro to Lab 2
 ## +
-## Project Team Formation
+## Intro to Testing
+## +
+## Intro to Templates and Forms
 
 
+---
+
+### Lab 2 brings in an expanded application structure
+
+<pre style="margin-left: 5em;">
+brocker-lab-2/
+├─ app/
+│  ├─ controllers/
+│  │  ├─ application_controller.rb
+│  │  ├─ simple_photo_processor_controller.rb
+│  ├─ views/
+│  │  ├─ index.html.erb
+│  │  ├─ layout.erb
+│  │  ├─ simple_photo_processor/
+│  │     ├─ new.html.erb
+│  ├─ public/
+│  │  ├─ images/
+│  │  ├─ stylesheets/
+├─ spec/
+│  ├─ features/
+│  │  ├─ homepage_spec.rb
+│  │  ├─ simple_photo_processor_spec.rb
+      ^---- Tests!!!! We have tests!
+</pre>
+
+
+<br>
+<br>
+
+## ..and Tests!
+
+---
+layout: two-cols
+---
+
+## Eliza's Testing Philosophy
+
+* Test-first, never test-last
+  * The only exception is throw-away spike code
+  * But only if you actually throw it away!
+* Top down testing
+* Each layer should be a little more thorough than the last
+
+## As applied to [Lab 2](https://github.com/elizabrock/CSSE-490/blob/main/labs/lab-01-photo-processing-app.md):
+
+* Your mission is to set up the Lab
+* Run the tests
+* And only implement what the tests tell you is necessary
+
+(If you want to add more functionality, by all means do so, but you must also add tests to go with it!)
+
+::right::
+
+<a href='//sketchviz.com/@elizabrock/91fc6bc5e473e4067fd94261683bfe0b'><img src='https://sketchviz.com/@elizabrock/91fc6bc5e473e4067fd94261683bfe0b/d543ef6880bc12b36a83afe6b85a42301c2fccae.sketchy.png' style='max-width: 100%; max-height: 28em;'></a>
 ---
 
 Suggested chapters of the book for Lab 1:
@@ -108,19 +164,17 @@ def upload():
 
 ---
 
-## FYI on flask-bootstrap
+## FYI on styling
 
-The version in the book is way out of date.  If you want to use Bootstrap 5, you'll need to use [Flask-BS4](https://pypi.org/project/Flask-BS4/).
-
-I personally don't care for bootstrap, so I'm going to use [Primitive UI](https://taniarascia.github.io/primitive/) in the labs.
+I'm using [Primitive UI](https://taniarascia.github.io/primitive/) in the labs.
 
 ---
 
-## Intro to Forms
+## Review of HTML Forms
 
-The book uses [flask-wtf](https://flask-wtf.readthedocs.io/en/0.15.x/), which has great docs.
+You may have only see forms briefly in 280.
 
-The most notable thing about flask-wtf (other than the delightful name and its use of classes to implement forms) is that it may be your first exposure to CSRF.
+You should read this: https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_and_retrieving_form_data
 
 
 ## CSRF == Cross-Site Request Forgery

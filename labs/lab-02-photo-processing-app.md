@@ -1,4 +1,4 @@
-# Lab 1: Photo Processing App
+# Lab 2: Photo Processing App
 
 ## Learning Goals / Objectives:
 
@@ -16,7 +16,7 @@
 
 ## Getting Started:
 
-Lab Starting Code (through GitHub Classroom): https://classroom.github.com/a/7vy-b1El
+Lab Starting Code (through GitHub Classroom): https://classroom.github.com/a/g_0XKdgO
 
 
 ### 1. Clone the code
@@ -29,7 +29,7 @@ Follow the instructions in the README for this :)
 ### 3. Run the application in development mode
 ### 4. Run the tests
 
-`pytest`
+`rake test`
 
 ### 5. Follow the instructions in the test output to implement the photo transformation(s) of your choice
 
