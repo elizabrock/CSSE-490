@@ -7,7 +7,7 @@ unless ENV["SKIP_BUILD"]
     puts "About to run: #{command}"
     success = system(command)
     if !success
-      console.log("Aborting because previous command failed")
+      puts "Aborting because previous command failed"
       exit 1
     end
   end

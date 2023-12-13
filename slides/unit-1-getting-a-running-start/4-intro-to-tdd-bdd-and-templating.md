@@ -61,7 +61,7 @@ layout: two-cols
 
 ::right::
 
-<img src='lab-2-workflow.png' style='max-width: 100%; max-height: 28em; margin-left: 4em;'>
+<img src='/lab-2-workflow.png' style='max-width: 100%; max-height: 28em; margin-left: 4em;'>
 ---
 
 ### General File Structure:

@@ -82,7 +82,7 @@ layout: two-cols
 
 You've seen some of this in 280 in the context of the Chrome developer tools:
 
-![](requests%20in%20chrome%20console.png)
+<div><img src='/requests in chrome console.png' style='max-width: 100%;'></div>
 
 ---
 
@@ -128,13 +128,13 @@ layout: two-cols
 
 ### The workflow for Lab 1 (Deploying Our First Sinatra App)
 
-<div><a href='//sketchviz.com/@elizabrock/6c9fd114e88e4494828e9f266b2d04cd'><img src='lab-1-workflow.png' style='max-width: 100%;'></a><br/><span style='font-size: 80%;color:#555;'>Hosted on <a href='//sketchviz.com/' style='color:#555;'>Sketchviz</a></span></div>
+<div><a href='//sketchviz.com/@elizabrock/6c9fd114e88e4494828e9f266b2d04cd'><img src='/lab-1-workflow.png' style='max-width: 100%;'></a><br/><span style='font-size: 80%;color:#555;'>Hosted on <a href='//sketchviz.com/' style='color:#555;'>Sketchviz</a></span></div>
 
 ::right::
 
 ### The workflow for Lab 10 (CI and Automated Deployment with Heroku)
 
-<div><a href='//sketchviz.com/@elizabrock/6281f3bcf7be004cc04a2f413d2bb52e'><img src='lab-10-workflow.png' style='max-width: 100%;'></a><br/><span style='font-size: 80%;color:#555;'>Hosted on <a href='//sketchviz.com/' style='color:#555;'>Sketchviz</a></span></div>
+<div><a href='//sketchviz.com/@elizabrock/6281f3bcf7be004cc04a2f413d2bb52e'><img src='/lab-10-workflow.png' style='max-width: 100%;'></a><br/><span style='font-size: 80%;color:#555;'>Hosted on <a href='//sketchviz.com/' style='color:#555;'>Sketchviz</a></span></div>
 
 
 ---
