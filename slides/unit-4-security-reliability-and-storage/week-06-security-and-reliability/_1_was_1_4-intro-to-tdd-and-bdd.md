@@ -18,9 +18,3 @@
 >
 > -- Source: [Auth0 Blog: Prevent Cross-Site Request Forgery (CSRF) Attacks](https://auth0.com/blog/cross-site-request-forgery-csrf/)
 
----
-
-## Let's talk projects
-
-
-[Project signup sheet](https://docs.google.com/spreadsheets/d/17FoOmJk-xgyoKU9j8y0d_1qRmBEun5ZohD0vRO0hmB8/edit?usp=sharing)

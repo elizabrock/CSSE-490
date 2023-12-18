@@ -17,6 +17,14 @@
 
 ---
 
+## Let's talk projects
+
+
+[Project signup sheet]()
+
+
+---
+
 ## Projects
 
 I've added new columns to the projects spreadsheet to record project ideas.
