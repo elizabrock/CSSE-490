@@ -1,9 +1,11 @@
 # CSSE-490: Advanced Web Development
-### Week 2: Databases as they pertain to Web Applications
+### Unit 2: Persisting Data / Databases as they pertain to Web Applications
 
 
-## Lab 1 Show-and-Tell
+## Lab 2 Show-and-Tell
 ## +
+## Project Teams
+## + (probably Thursday)
 ## Intro to ORMs (Object-Relational Mappings)
 ## +
 ## Intro to Migrations?
@@ -12,7 +14,7 @@
 ---
 
 
-## Lab 1 Show-and-Tell
+## Lab 2 Show-and-Tell
 
 
 ---
@@ -20,18 +22,24 @@
 ## Let's talk projects
 
 
-[Project signup sheet]()
+[Project signup sheet](https://docs.google.com/spreadsheets/d/1Fj7Cbm9MPhyaVwU9KgBDWiG2zUWZDKsUMTbdiY1z7u8/edit?usp=sharing)
 
 
 ---
 
-## Projects
+
+## Demos
+
+<!--
+## Projects (Last Term's Version)
 
 I've added new columns to the projects spreadsheet to record project ideas.
 
 Spend the next 10 minutes as a project team to write down your project ideas and preliminary project titles.
 
 Afterwards we'll brainstorm names and ideas for those that haven't come up with ones that they like yet.
+
+-->
 
 ---
 
