@@ -55,8 +55,8 @@ You are going to go through the "Thinking in React" process, so you should study
 
 **Mock**
 
-![The balsamiq mocks for this lab](lab-04-mocks.png)
-[direct link to mocks](lab-04-mocks.png)
+![The balsamiq mocks for this lab](public/lab-04-mocks.png)
+[direct link to mocks](public/lab-04-mocks.png)
 
 
 **Sample JSON**
@@ -102,11 +102,11 @@ ReactDOM.render(
 
 ##### `index.css`
 
-I highly recommend grabbing the starting CSS from Lab 2, which is the Primitive UI CSS framework: https://github.com/taniarascia/primitive
+I highly recommend grabbing the starting CSS from the Labs, which is the Primitive UI CSS framework: https://github.com/taniarascia/primitive
 
-##### Steal The Rest of the Markup from Lab 2
+##### Steal The Rest of the Markup from Lab 5 (we haven't done lab 5 yet, but we will!)
 
-For my starting markup, I took the markup directly from https://brocker-lab2.herokuapp.com/.  Then I modified the markup to suit the React way by splitting it up into my planned components.  
+For my starting markup, I took the markup directly from https://brocker-lab2.herokuapp.com/.  Then I modified the markup to suit the React way by splitting it up into my planned components.
 
 It will be very helpful for you to know that if you want to have commented out code inside your JSX, you need to wrap it in curly braces, as well as in a javascript comment.  For example: `{\* your comment goes here *\}` **NOT** `<!-- you can't make a comment like this -->`
 
@@ -193,4 +193,5 @@ heroku open
 
 ### Step 9: Turn in the lab
 
-Go to [Gradescope](https://www.gradescope.com/) and turn in the lab!
+1. Update README.md with the deployed URL of your application
+2. Push all your changes up to GitHub
