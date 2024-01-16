@@ -20,7 +20,7 @@
 
 ### Step 1: Create a GitHub repository for this lab
 
-1. Lab Starting Code (through GitHub Classroom): https://classroom.github.com/a/Nnmgc-QR
+1. Lab Starting Code (through GitHub Classroom): https://classroom.github.com/a/iyfE0Diz
 
 ### Step 2: Clone the repository on your local machine
 

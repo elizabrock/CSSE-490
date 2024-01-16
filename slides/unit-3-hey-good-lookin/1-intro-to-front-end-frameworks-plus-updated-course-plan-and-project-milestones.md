@@ -3,7 +3,7 @@
 
 ## Intro to FE Frameworks
 ## +
-## Preparing for Lab 4
+## Starting Lab 4
 
 (We will loop back to add authentication to Lab 3 next [in Lab 5])
 
@@ -64,7 +64,7 @@ Key Features:
 * JSX (HTML/CSS/JS all smooshed together) <-- Very XMLish
 * Fairly object-oriented
   * Less pick-pocketing
-  * Composable (TODO: Show an example tomorrow)
+  * Composable
 * It has its own mindset about how to represent logic
   * Very big on how you interact with variables and being precise about mutating things
     * props vs. state
@@ -143,7 +143,7 @@ In Class: Thursday = Talk lab 4, talk projects more; Friday = loop back to imple
 * Updated schedule in Moodle
 * Lab 5 available to start
 
-### ToDo
+## ToDo
 * Review milestone 4
   * Have you submitted it?
   * Have you made the document link publicly viewable?
