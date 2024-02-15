@@ -166,12 +166,9 @@ User `git push` to push your code to your GitHub repository
 
 ### Step 9: Deploy your code to Heroku
 
-Create a new heroku application, using the special create-react-app buildpack:
-
-_(This is documented in the [create-react-app documentation](https://create-react-app.dev/docs/deployment/#heroku), as well as in [this Heroku blog post](https://blog.heroku.com/deploying-react-with-zero-configuration))_
-
 ```
-heroku create yourusername-lab-4 -b https://github.com/mars/create-react-app-buildpack.git
+heroku create yourusername-lab-4
+heroku buildpacks:set heroku/nodejs
 ```
 
 Then deploy your code using:
